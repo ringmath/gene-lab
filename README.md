@@ -8,6 +8,11 @@
 
 [![NPM](https://nodei.co/npm/zooid-gene-lab.svg?style=flat)](https://npmjs.org/package/zooid-gene-lab)
 
+## Run
+```
+npm run storebook
+```
+
 ## Install
 ```
 npm install --save zooid-gene-lab
