@@ -1,10 +1,17 @@
 import React, { PropTypes } from 'react'
+import Cat from '../Cat'
+import Dog from '../Dog'
 
 const propTypes = {}
 const defaultProps = {}
 
 const GeneLab = () => {
-  return <div>GeneLab</div>
+  return (
+    <div>
+      <Cat />
+      <Dog />
+    </div>
+  )
 }
 
 GeneLab.propTypes    = propTypes
