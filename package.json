@@ -1,0 +1,9 @@
+{
+  "name": "gene-lab",
+  "version": "1.0.0",
+  "description": "Breed the perfect mix of Cat, Dog, Squirrel, Octopus, and Aphid",
+  "main": "index.js",
+  "repository": "git@github.com:ringmath/gene-lab.git",
+  "author": "royvandewater <roy.v.water@gmail.com>",
+  "license": "MIT"
+}
