@@ -6,10 +6,6 @@ const defaultProps = {}
 const Dog = () => {
   return (
     <svg width="285px" height="370px" viewBox="0 0 285 370" version="1.1" xmlns="http://www.w3.org/2000/svg">
-      <title>dog</title>
-      <desc>Created with Sketch.</desc>
-      <defs>
-      </defs>
       <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <rect id="Head" x="42" y="77" width="200" height="275" rx="14" fill="#B5925E">
         </rect>
@@ -33,7 +29,7 @@ const Dog = () => {
           <circle id="pupil" fill="#000000" cx="21.5" cy="26.5" r="16.5">
           </circle>
         </g>
-        <g id="Left-Eye" transform="translate(169.000000, 163.000000)">
+        <g id="Right-Eye" transform="translate(169.000000, 163.000000)">
           <ellipse id="white" fill="#FFFFFF" cx="21.5" cy="26" rx="21.5" ry="26">
           </ellipse>
           <circle id="iris" fill="#0088FF" cx="21.5" cy="26.5" r="21.5">

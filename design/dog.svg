@@ -34,7 +34,7 @@
       <circle id="pupil" fill="#000000" cx="21.5" cy="26.5" r="16.5">
       </circle>
     </g>
-    <g id="Left-Eye" transform="translate(169.000000, 163.000000)">
+    <g id="Right-Eye" transform="translate(169.000000, 163.000000)">
       <ellipse id="white" fill="#FFFFFF" cx="21.5" cy="26" rx="21.5" ry="26">
       </ellipse>
       <circle id="iris" fill="#0088FF" cx="21.5" cy="26.5" r="21.5">
