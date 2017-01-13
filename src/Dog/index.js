@@ -6,7 +6,7 @@ const defaultProps = {}
 const Dog = () => {
   return (
     <svg width="285px" height="370px" viewBox="0 0 285 370" version="1.1" xmlns="http://www.w3.org/2000/svg">
-      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
         <rect id="Head" x="42" y="77" width="200" height="275" rx="14" fill="#B5925E">
         </rect>
         <polygon id="Left-Ear" fill="#95794E" points="42.5 0 85 132 0 132">

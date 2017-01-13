@@ -1,0 +1,15 @@
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  flex: 1;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.animal {
+}

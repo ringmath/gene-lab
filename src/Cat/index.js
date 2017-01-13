@@ -6,7 +6,7 @@ const defaultProps = {}
 const Cat = () => {
   return (
     <svg width="200px" height="254px" viewBox="0 0 200 254" version="1.1" xmlns="http://www.w3.org/2000/svg">
-      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
         <polygon id="Left-Ear" fill="#A85D22" points="25.5 0 50 107 1 107" transform="translate(5,0)">
         </polygon>
         <polygon id="Right-Ear" fill="#A85D22" points="174.5 0 199 107 150 107" transform="translate(-5,0)">
@@ -28,22 +28,22 @@ const Cat = () => {
                 <path d="M91.9591042,2.77555756e-15 C91.9862776,0.66320702 92,1.32996615 92,2 C92,27.9573832 71.4050985,49 46,49 C20.5949015,49 0,27.9573832 0,2 C0,1.32996615 0.0137224416,0.66320702 0.0408958409,1.11022302e-15 L91.9591042,2.84217094e-14 Z" id="path-3">
                 </path>
               </mask>
-              <path id="Combined-Shape" stroke="none" fill="#F9C49A" fill-rule="evenodd" d="M91.9591042,2.77555756e-15 C91.9862776,0.66320702 92,1.32996615 92,2 C92,27.9573832 71.4050985,49 46,49 C20.5949015,49 0,27.9573832 0,2 C0,1.32996615 0.0137224416,0.66320702 0.0408958409,1.11022302e-15 L91.9591042,2.84217094e-14 Z">
+              <path id="Combined-Shape" stroke="none" fill="#F9C49A" fillRule="evenodd" d="M91.9591042,2.77555756e-15 C91.9862776,0.66320702 92,1.32996615 92,2 C92,27.9573832 71.4050985,49 46,49 C20.5949015,49 0,27.9573832 0,2 C0,1.32996615 0.0137224416,0.66320702 0.0408958409,1.11022302e-15 L91.9591042,2.84217094e-14 Z">
               </path>
-              <circle id="Oval-2" stroke="#A85D22" stroke-width="5" fill="none" mask="url(#mask-4)" cx="22" cy="2" r="24">
+              <circle id="Oval-2" stroke="#A85D22" strokeWidth="5" fill="none" mask="url(#mask-4)" cx="22" cy="2" r="24">
               </circle>
-              <circle id="Oval-2-Copy" stroke="#A85D22" stroke-width="5" fill="none" mask="url(#mask-4)" cx="70" cy="2" r="24">
+              <circle id="Oval-2-Copy" stroke="#A85D22" strokeWidth="5" fill="none" mask="url(#mask-4)" cx="70" cy="2" r="24">
               </circle>
             </g>
           </g>
         </g>
-        <g id="Left-Whiskers" transform="translate(16.000000, 162.000000)" stroke="#A85D22" stroke-width="3" stroke-linecap="square">
+        <g id="Left-Whiskers" transform="translate(16.000000, 162.000000)" stroke="#A85D22" strokeWidth="3" strokeLinecap="square">
           <path d="M63.5,34.5 L3.5,0.5" id="Line">
           </path>
           <path d="M63.5,50 L0.214930671,50" id="Line-Copy">
           </path>
         </g>
-        <g id="Right-Whiskers" transform="translate(152.000000, 188.000000) scale(-1, 1) translate(-152.000000, -188.000000) translate(120.000000, 162.000000)" stroke="#A85D22" stroke-width="3" stroke-linecap="square">
+        <g id="Right-Whiskers" transform="translate(152.000000, 188.000000) scale(-1, 1) translate(-152.000000, -188.000000) translate(120.000000, 162.000000)" stroke="#A85D22" strokeWidth="3" strokeLinecap="square">
           <path d="M63.5,34.5 L3.5,0.5" id="Line">
           </path>
           <path d="M63.5,50 L0.214930671,50" id="Line-Copy">
