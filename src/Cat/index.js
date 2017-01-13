@@ -12,6 +12,8 @@ const Cat = () => {
       height: 200,
       ears: {
         inFront: false,
+        spaceBetween: 140,
+        scaleWidth: 1,
       },
     },
   }

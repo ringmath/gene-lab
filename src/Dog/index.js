@@ -12,6 +12,8 @@ const Dog = () => {
       height: 275,
       ears: {
         inFront: true,
+        spaceBetween: 180,
+        scaleWidth: 1.5,
       },
     },
   }

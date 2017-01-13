@@ -5,7 +5,7 @@ const defaultProps = {}
 
 const FakeCat = () => {
   return (
-    <svg width="200px" height="254px" viewBox="0 0 200 254" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <svg width="285px" height="370px" viewBox="0 0 200 254" version="1.1" xmlns="http://www.w3.org/2000/svg">
       <g id="Page-1" stroke="none" strokeWidth="1" fill="none" fillRule="evenodd">
         <polygon id="Left-Ear" fill="#A85D22" points="25.5 0 50 107 1 107" transform="translate(5,0)">
         </polygon>
