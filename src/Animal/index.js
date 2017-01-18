@@ -1,5 +1,6 @@
 import React, { PropTypes } from 'react'
 
+import Eyes from './parts/Eyes/'
 import Head from './parts/Head/'
 
 const propTypes = {
@@ -13,12 +14,16 @@ const propTypes = {
         spaceBetween: PropTypes.number.isRequired,
       }).isRequired,
     }).isRequired,
+    eyes: PropTypes.shape({
+      rotation: PropTypes.number.isRequired,
+      voffset: PropTypes.number.isRequired,
+    }),
   }).isRequired
 }
 const defaultProps = {}
 
 const Animal = ({geometry}) => {
-  const { head } = geometry
+  const { head, eyes } = geometry
 
   return (
     <svg width="285px" height="370px" viewBox="0 0 285 370" version="1.1" xmlns="http://www.w3.org/2000/svg">
@@ -60,22 +65,7 @@ const Animal = ({geometry}) => {
             <path d="M63.5,50 L0.214930671,50" id="Line-Copy">
             </path>
           </g>
-          <g id="Left-Eye" transform="translate(54.000000, 116.500000) rotate(90.000000) translate(-54.000000, -116.500000) translate(32.500000, 90.500000)">
-            <ellipse id="white" fill="#FFFFFF" cx="21.5" cy="26" rx="21.5" ry="26">
-            </ellipse>
-            <circle id="iris" fill="#0088FF" cx="21.5" cy="26.5" r="21.5">
-            </circle>
-            <circle id="pupil" fill="#000000" cx="21.5" cy="26.5" r="16.5">
-            </circle>
-          </g>
-          <g id="Right-Eye" transform="translate(146.000000, 116.500000) rotate(90.000000) translate(-146.000000, -116.500000) translate(124.500000, 90.500000)">
-            <ellipse id="white" fill="#FFFFFF" cx="21.5" cy="26" rx="21.5" ry="26">
-            </ellipse>
-            <circle id="iris" fill="#0088FF" cx="21.5" cy="26.5" r="21.5">
-            </circle>
-            <circle id="pupil" fill="#000000" cx="21.5" cy="26.5" r="16.5">
-            </circle>
-          </g>
+          <Eyes rotation={eyes.rotation} voffset={eyes.voffset} />
         </g>
       </Head>
     </svg>

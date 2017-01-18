@@ -12,10 +12,14 @@ const Dog = () => {
       height: 275,
       ears: {
         inFront: true,
-        spaceBetween: 180,
         scaleWidth: 1.5,
+        spaceBetween: 180,
       },
     },
+    eyes: {
+      rotation: 90,
+      voffset: 50,
+    }
   }
 
   return <Animal geometry={geometry} />

@@ -9,8 +9,6 @@ const defaultProps = {}
 const Ears = ({ scaleWidth, spaceBetween }) => {
   const offset = spaceBetween / 2
 
-  // const leftTransform = ` scale(2)`
-  // const rightTransform = `translate(${offset},0) scale(2)`
   const leftTransform = `translate(${145-offset},0) scale(${scaleWidth}, 1)`
   const rightTransform = `translate(${145+offset},0) scale(${scaleWidth}, 1)`
 

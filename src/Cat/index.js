@@ -12,10 +12,14 @@ const Cat = () => {
       height: 200,
       ears: {
         inFront: false,
-        spaceBetween: 140,
         scaleWidth: 1,
+        spaceBetween: 140,
       },
     },
+    eyes: {
+      rotation: 0,
+      voffset: 0,
+    }
   }
 
   return <Animal geometry={geometry} />
